@@ -1,26 +1,21 @@
-<?php 
-session_start();
-if(!isset($_POST['logout'])){
-    unset($_SESSION['user']);
-}
-
-if(!isset($_SESSION['nomeusuario'])) {
-    header("Location: login.php");
-    exit();
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
-    <form method="post">
-    <input type="hidden" name="logout" value="1"/>
-    <button type="submit" value="logout">Sair</button>
+    <form action="login.php" method="post">
+        <h1>Login</h1>
+        <?php if(isset($_GET['error'])) { ?> 
+            <p class="error"><?php echo $_GET['error']; ?> </p>
+           <?php } ?>
+           <label> Nome de Usuário </label>
+           <input type="text" name="usuario" placeholder="Nome"><br>
+           <label> Senha </label> 
+            <input type="password" name="senha"  placeholder="Senha"><br>
+            <button type= "submit">Entrar</button>
     </form>
 </body>
 </html>
