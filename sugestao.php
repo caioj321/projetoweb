@@ -22,7 +22,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['nome_usuario'])) {
     <input type="text name="nPaginas" placeholder="Número de Páginas"/>
     <label>Gênero</label>
     <input type="text" name="genero" placeholder="Gênero do Livro"/>
-    <button type="submit" onclick= "location :'adicionar.php'">Enviar Sugestão</button>
+    <button type="submit" onclick= "location='adicionar.php'">Enviar Sugestão</button>
     </form>
 </body>
 </html>
