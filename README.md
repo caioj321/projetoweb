@@ -9,6 +9,7 @@ Página principal -> botão para a página de chatroom(leitura em grupo), css da
 Bugs: na tela de login não está aparecendo as mensagens relacionadas a falhas na conexão i.e: "Nome/senha incorretos"
 
 --- COMO RODAR O CÓDIGO ---
+
 Pré requisitos:
 - IDE para visualização do código
 - XAMPP
