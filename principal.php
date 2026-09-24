@@ -12,8 +12,8 @@ if(isset($_SESSION['id']) && isset($_SESSION['nome_usuario'])) {
 </head>
 <body>
     <h1>Bem vindo, <?php echo $_SESSION['nome_usuario']; ?></h1>
-    <input type="button" onclick="location='adicionar.php'" placeholder="teste"/>
-    <h2><a href="logout.php">Sair</a></h2>
+    <button onclick="location='adicionar.php'">Ver livros disponíveis</button>
+    <button><a href="logout.php">Sair</a></button>
 </body>
 </html>
 <?php 

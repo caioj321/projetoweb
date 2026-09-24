@@ -16,10 +16,12 @@ $senha = validar($_POST['senha']);
 
 if(empty($usuario)){
     header("Location: index.php");
+    echo 'Usuário Incorreto.';
     exit();
 }
 else if(empty($senha)){
     header("Location: index.php");
+    echo "Senha incorreta";
     exit();
 }
 
