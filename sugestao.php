@@ -1,3 +1,9 @@
+<?php 
+session_start();
+
+if(isset($_SESSION['id']) && isset($_SESSION['nome_usuario'])) {
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,3 +26,10 @@
     </form>
 </body>
 </html>
+<?php 
+}
+else {
+    header("Location: index.php");
+    exit();
+}
+?>
