@@ -13,7 +13,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['nome_usuario'])) {
 </head>
 <body>
     <h1>Envie uma sugestão de livro para o acervo</h1>
-    <form action="post">
     <label>Titulo do Livro</label>
     <input type="text" name="titulo" placeholder="Titulo"/>
     <label>Autor</label>
@@ -23,7 +22,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['nome_usuario'])) {
     <label>Gênero</label>
     <input type="text" name="genero" placeholder="Gênero do Livro"/>
     <button type="submit" onclick= "location='adicionar.php'">Enviar Sugestão</button>
-    </form>
 </body>
 </html>
 <?php 
