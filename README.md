@@ -3,7 +3,7 @@ Trabalho: Biblioteca
 Integrantes: Caio Eduardo Januario - PHP, HTML, DATABASE
 Victor Israel Michaili Rosa da Costa - CSS
 
-Funcionalidades a serem implementadas:
+--- Funcionalidades a serem implementadas ---
 
 Página do Acervo(adicionar.php) -> realizar empréstimo, devolver livro, filtro de pesquisa, css da página
 
