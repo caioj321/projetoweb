@@ -51,6 +51,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['nome_usuario'])) {
         }
         ?>
     </table>
+    <button onclick="location='sugestao.php';">Sugerir Livro</button>
     <button onclick="location='principal.php';">Voltar</button>
 </body>
 </html>
