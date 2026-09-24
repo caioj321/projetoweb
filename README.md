@@ -1,6 +1,7 @@
 Trabalho: Biblioteca 
 
 Integrantes: Caio Eduardo Januario - PHP, HTML, DATABASE
+
 Victor Israel Michaili Rosa da Costa - CSS
 
 --- Funcionalidades a serem implementadas ---
