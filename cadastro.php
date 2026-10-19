@@ -14,11 +14,11 @@ require_once('db_connect.php');
         $usuario = $_POST['usuario'];
         $senha = $_POST['senha'];
 
-        $sql = "INSERT INTO usuarios (usuario, senha) VALUES (?, ?)";
+        $sql = "INSERT INTO usuarios (nome_usuario, senha) VALUES (?, ?)";
         $statementinsert = $con->prepare($sql);
         $result = $statementinsert->execute([$usuario, $senha]);
         if($result){
-            echo 'Usuário criado';
+            header("Location: cadastro_sucesso.php");
         } else {
             echo 'Erro ao criar usuário';
         }
@@ -36,6 +36,6 @@ require_once('db_connect.php');
 </form>
 </div>
 <body>
-    
+    <button onclick= "location='index.php'">Voltar</button>
 </body>
 </html>
