@@ -10,7 +10,7 @@ Página do Acervo(adicionar.php) -> realizar empréstimo, devolver livro, filtro
 
 Página de Sugestão(sugestao.php) -> adicionar integração a database para guardar sugestões, css da página
 
-Página de Cadastro -> A página em si, integração com a database de usuários, css da página
+Página de Cadastro -> --A página em si--, --integração com a database de usuários--, css da página
 
 Página principal -> botão para a página de chatroom(leitura em grupo), css da página
 
