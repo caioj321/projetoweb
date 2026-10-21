@@ -14,6 +14,10 @@ Página de Cadastro -> ~~A página em si~~, ~~integração com a database de usu
 
 Página principal -> botão para a página de chatroom(leitura em grupo), css da página
 
+Página Opções -> pagina em si, mudar nome de usuário, mudar senha*, lista de livros sugeridos pro acervo(botão ver sugestões enviadas), css da página
+
+*mudar senha requer que o usuário digite o nome de usuário e a senha nova
+
 Bugs: na tela de login não está aparecendo as mensagens relacionadas a falhas na conexão i.e: "Nome/senha incorretos"
 
 --- COMO RODAR O CÓDIGO ---
