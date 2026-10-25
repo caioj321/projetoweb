@@ -1,32 +1,15 @@
-.titulo{
-    background-color: rgb(110, 202, 106);
-    color: black;
-    font-size: 24px;
-    text-align: center;
-}
+.navbar{
 
-.usuarioPedido{
-    font-size: 18px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    background-image: linear-gradient(to right, #4059AD,#3FC9FF );
 }
-
-.senhaPedido{
-    font-size: 18px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.navbar img{
+    height: 40px;
+    padding-left: 20px;
 }
-
-body{
-    color:black;
-    background-color: rgb(214, 214, 214);
-    font-size: 16px;
-    text-align: center;
-    text-decoration: rgb(0, 255, 55);
-}
-
 .botao{
-    font-size: 16px;
+
+    background-color: #090909;
+}
+.body{
+    background-color: #090909;
 }
