@@ -4,6 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="login.php" method="post">
+        <h1 class= "titulo">Login</h1>
+        <?php if(isset($_GET['error'])) { ?> 
+            <p class="error"><?php echo $_GET['error']; ?> </p>
+           <?php } ?>
+           <label> Nome de Usuário </label>
+           <input type="text" name="usuario" placeholder="Nome"><br>
+           <label> Senha </label> 
+            <input type="password" name="senha"  placeholder="Senha"><br>
+            <button type= "submit">Entrar</button>
+    </form>
+    <a href="cadastro.php">Cadastrar-se</a>
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
 
