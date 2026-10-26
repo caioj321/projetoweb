@@ -29,4 +29,18 @@ body{
 
 .botao{
     font-size: 16px;
+.navbar{
+
+    background-image: linear-gradient(to right, #4059AD,#3FC9FF );
+}
+.navbar img{
+    height: 40px;
+    padding-left: 20px;
+}
+.botao{
+
+    background-color: #090909;
+}
+.body{
+    background-color: #090909;
 }
