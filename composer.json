@@ -1,0 +1,43 @@
+{
+    "name": "caio-victor/biblioteca",
+    "description": "Sistema de biblioteca (Trabalho acadêmico — Library of Ruina)",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        { "name": "Caio Eduardo Januario" },
+        { "name": "Victor Israel Michaili Rosa da Costa" }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "vlucas/phpdotenv": "^5.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "squizlabs/php_codesniffer": "^3.9",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "classmap": [
+            "app/core/",
+            "app/models/",
+            "app/controllers/",
+            "app/config/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": ["tests/"]
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "scripts": {
+        "serve":  "php -S localhost:8000 -t public",
+        "test":   "phpunit",
+        "cs":     "phpcs --standard=PSR12 app public",
+        "cs-fix": "phpcbf --standard=PSR12 app public",
+        "stan":   "phpstan analyse app public --level=5"
+    }
+}

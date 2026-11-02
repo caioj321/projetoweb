@@ -1,0 +1,35 @@
+ 
+.navbar {
+    background-image: linear-gradient(to right, #4059AD, #3FC9FF);
+}
+
+.navbar img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.botao {
+    background-color: #090909;
+    color: #fff;
+    border: 1px solid #3FC9FF;
+}
+
+.botao:hover {
+    background-color: #3FC9FF;
+    color: #090909;
+}
+
+.btn-primary {
+    background-color: #4059AD;
+    border-color: #4059AD;
+}
+
+.btn-primary:hover {
+    background-color: #3FC9FF;
+    border-color: #3FC9FF;
+    color: #090909;
+} 

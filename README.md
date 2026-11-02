@@ -1,34 +1,23 @@
 Trabalho: Biblioteca 
 
-Integrantes: Caio Eduardo Januario - PHP, HTML, DATABASE
+Integrantes
+Caio Eduardo Januario — PHP, HTML, Database
+Victor Israel Michaili Rosa da Costa — CSS
 
-Victor Israel Michaili Rosa da Costa - CSS
+Como rodar
 
---- Funcionalidades a serem implementadas ---
+Pré-requisitos
+IDE para visualizar o código
+XAMPP 
 
-Página do Acervo(adicionar.php) -> realizar empréstimo, devolver livro, filtro de pesquisa, css da página
+Passo a passo
+Abra o XAMPP e inicie Apache e MySQL
+Acesse `http://localhost/phpmyadmin`
+Importe o arquivo `teste_db.sql`
+Acesse `http://localhost/biblioteca/public/` 
+Faça login com `admin` / `321`
 
-Página de Sugestão(sugestao.php) -> adicionar integração a database para guardar sugestões, css da página
-
-Página de Cadastro -> ~~A página em si~~, ~~integração com a database de usuários~~, css da página
-
-Página principal -> botão para a página de chatroom(leitura em grupo), css da página
-
-Página Opções -> pagina em si, mudar nome de usuário, mudar senha*, lista de livros sugeridos pro acervo(botão ver sugestões enviadas), css da página
-
-*mudar senha requer que o usuário digite o nome de usuário e a senha nova
-
-Bugs: na tela de login não está aparecendo as mensagens relacionadas a falhas na conexão i.e: "Nome/senha incorretos"
-
---- COMO RODAR O CÓDIGO ---
-
-Pré requisitos:
-- IDE para visualização do código
-- XAMPP
-
-  1. Realize o download dos arquivos do repositório
-  2. Abra o XAMPP
-  3. Inicie o Apache e o MySQL
-  4. No seu navegador, digite o endereço "localhost/phpmyadmin"
-  5. Dentro do phpmyadmin, importe a database contida no arquivo "teste_db.sql"
-  6. Para acessar a página do projeto, digite o endereço no seu navegador -> "localhost/[pasta aonde o projeto foi extraido]" 
+Pendências futuras
+Empréstimo / devolução de livros (nova tabela + model)
+Página de Opções (mudar nome/senha)
+Chatroom de leitura em grupo
