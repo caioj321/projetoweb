@@ -32,10 +32,10 @@ Passo a passo
 
 - Acesse `http://localhost:8000` 
 
-Faça login com `admin` / `321`
+- Faça login com `admin` / `321`
 
 
-Em caso de erro
+**Em caso de erro**
 
 Certifique de o autoload.php está instalado, caso contrário verifique com o grupo o erro
 
