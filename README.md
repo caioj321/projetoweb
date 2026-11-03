@@ -2,6 +2,7 @@ Trabalho: Biblioteca
 
 Integrantes
 Caio Eduardo Januario — PHP, HTML, Database
+
 Victor Israel Michaili Rosa da Costa — CSS, Implementação do composer, MVC, Orientação de Objetos
 
 Como rodar
