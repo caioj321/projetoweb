@@ -15,10 +15,15 @@ XAMPP -> https://www.apachefriends.org/pt_br/index.html
 Composer -> https://getcomposer.org/
 
 Passo a passo
-Abra o XAMPP e inicie Apache e MySQL
-Acesse `http://localhost/phpmyadmin`
-Importe o arquivo `teste_db.sql`
-Acesse `http://localhost/biblioteca/public/` 
+
+- Abra o XAMPP e inicie Apache e MySQL
+
+- Acesse `http://localhost/phpmyadmin`
+
+- Importe o arquivo `teste_db.sql`
+
+- Acesse `http://localhost/biblioteca/public/` 
+
 Faça login com `admin` / `321`
 
 Pendências futuras
