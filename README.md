@@ -26,6 +26,10 @@ Passo a passo
 
 - Importe o arquivo `teste_db.sql`
 
+- No terminal coloque `composer install`
+  
+- E coloque `composer serve`
+
 - Acesse `http://localhost:8000` 
 
 Faça login com `admin` / `321`
