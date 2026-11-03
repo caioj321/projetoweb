@@ -26,6 +26,6 @@ Passo a passo
 
 Faça login com `admin` / `321`
 
-Pendências futuras
-Empréstimo / devolução de livros (nova tabela + model)
-Página de Opções (mudar nome/senha)
+~~Pendências futuras~~
+~~Empréstimo / devolução de livros (nova tabela + model)~~
+~~Página de Opções (mudar nome/senha)~~
