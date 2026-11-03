@@ -26,6 +26,13 @@ Passo a passo
 
 Faça login com `admin` / `321`
 
+
+Em caso de erro
+
+Caso o código não esteja funcionando por conta do composer coloque os seguintes comandos:
+`composer dump-autoload`
+`php -r "require 'vendor/autoload.php'; var_dump(class_exists('Dotenv\Dotenv'));"`
+
 ~~Pendências futuras~~
 ~~Empréstimo / devolução de livros (nova tabela + model)~~
 ~~Página de Opções (mudar nome/senha)~~
