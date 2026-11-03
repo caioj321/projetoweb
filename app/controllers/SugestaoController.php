@@ -18,9 +18,9 @@ class SugestaoController extends Controller
         $titulo   = trim($_POST['titulo']   ?? '');
         $autor    = trim($_POST['autor']    ?? '');
         $paginas  = (int)($_POST['nPaginas'] ?? 0);
-        $genero   = trim($_POST['genero']   ?? '');
+        
 
-        if ($titulo === '' || $autor === '' || $paginas <= 0 || $genero === '') {
+        if ($titulo === '' || $autor === '' || $paginas <= 0 === '') {
             $this->redirect('/sugestoes?error=' . urlencode('Preencha todos os campos corretamente'));
         }
 
@@ -28,7 +28,7 @@ class SugestaoController extends Controller
             'titulo'   => $titulo,
             'autor'    => $autor,
             'nPaginas' => $paginas,
-            'genero'   => $genero,
+            
         ]);
 
         $this->redirect('/livros');
