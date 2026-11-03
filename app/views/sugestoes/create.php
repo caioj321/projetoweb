@@ -19,8 +19,6 @@
             <label class="form-label">Número de Páginas</label>
             <input type="number" name="nPaginas" class="form-control mb-3" min="1" required>
 
-            <label class="form-label">Gênero</label>
-            <input type="text" name="genero" class="form-control mb-4" required>
 
             <button type="submit" class="btn btn-primary w-100">Enviar Sugestão</button>
 
