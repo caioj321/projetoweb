@@ -8,7 +8,9 @@ Como rodar
 
 Pré-requisitos
 IDE para visualizar o código
+
 XAMPP -> https://www.apachefriends.org/pt_br/index.html
+
 Composer -> https://getcomposer.org/
 
 Passo a passo
